@@ -50,5 +50,5 @@ Analysons l'impact écologique de l'exécution de ces scénarios chez des applic
 | Service | Score (sur 100) | Classe | Détail des mesures
 | --- | --: | --: | --:
 | Dropbox | ? | F 🟪 | [(source)](https://github.com/UTT-GL03/EcoDrive/tree/main/benchmark/Dropbox/scenarios)
-| MEGA| ? | D 🟧 | 
-| Google Drive | ? | E 🟥 |
+| MEGA| ? | G ⬛ | [(source)](https://github.com/UTT-GL03/EcoDrive/tree/main/benchmark/MEGA/scenarios)
+| Google Drive | ? | G ⬛ | [(source)](https://github.com/UTT-GL03/EcoDrive/tree/main/benchmark/Google%20Drive)
