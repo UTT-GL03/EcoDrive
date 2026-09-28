@@ -27,12 +27,11 @@ Pour ces scénarios d'utilisation, nous prendrons pour hypothèses que l'utilisa
 1. La consultation d'un fichier.
 2. La Navigation dans l'aborescence d'un fichier.
 
-### Scénario : "Recherche d'un fichier"
-
-1. L'utilisateur accède à la page d'accueil et saisit le nom d'un fichier spécifique dans la barre de recherche et clique sur "Entrer".
-2. L'utilisateur clique sur le fichier dans la liste des résultats de recherche.
-3. L'utilisateur accède au fichier.
-4. L'utilisateur revient à la liste des résultats de recherche et ouvre un fichier différent.
+### Scénario : "Utilisation de la rubrique 'Fichiers récents'""
+.
+1. L'utilisateur accède à la page d'accueil, sur la rubrique "fichiers récents" et ouvre un fichier.
+2. L'utilisateur ferme le fichier et retourne à l'écran d'accueil.
+4. L'utilisateur ouvre un fichier différent.
 
 ### Scénario : "Navigation dans l'aborescence de fichiers"
 1. L'utilisateur accède à la page d'accueil et ouvre sur un dossier.
