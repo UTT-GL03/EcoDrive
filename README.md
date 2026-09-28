@@ -47,3 +47,9 @@ L'EcoIndex d'une page (de A à G) est calculé (sources : [EcoIndex](https://www
 - le nombre d'éléments du document.
 
 Analysons l'impact écologique de l'exécution de ces scénarios chez des applications concurrentes : **MEGA**, **Google Drive**, et **Dropbox**.
+
+| Service | Score (sur 100) | Classe | Détail des mesures
+| --- | --: | --: | --:
+| Dropbox | # | E 🟥 |
+| MEGA| # | D 🟧 | 
+| Google Drive | # | E 🟥 |
