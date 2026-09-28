@@ -1,10 +1,10 @@
 # Réduction de l'impact écologique du service numérique d'une plateforme de stockage de fichiers.
-
 ## Choix du sujet
 
 Face à l'explosion du volume de données personnelles et professionnelles, le recours au stockage cloud (Google Drive, Mega, etc.) est devenu incontournable lorsque les supports physiques saturent. Nous avons choisi d'étudier ces plateformes de stockage de fichiers en raison de leur omniprésence : éducation (partage de cours, notes), santé (gestion et échange de dossiers médicaux) ou administrations publiques (centralisation de données sensibles selon les droits d'accès). Toutefois, cette demande croissante exige une mise à niveau constante des infrastructures, entraînant une hausse de leur empreinte écologique. L'objectif de notre travail est donc de proposer une plateforme dont l'impact environnemental est moindre.
 
 ## Utilité sociale
+
 La capacité à stocker, à préserver, à classifier et à sécuriser des informations ainsi que des documents est de façon indiscutable utile à la société. Historiquement, les documents qui ont réussi à nous parvenir malgré les années sont une preuve de la nécessité d'archiver des textes et ouvrages.
 Malgré cela, suite à l'arrivée d'Internet, le stockage d'information est paradoxalement plus difficile à garantir, en partie dûe à sa nature temporaire, à sa difficulté d'accès, ainsi qu'à la nature de son stockage : c'est la Dégradation des données.
 Les disques durs, disquettes et bandes magnétiques se dégradent au fur et à mesure de leur utilisation, ainsi que suite à une exposition à des températures élevées. Cela provoque une dégradation ainsi qu'une corruption des données sur le long termes. Les CD/DVD peuvent également se dégrader suite à de mauvaises conditions de stockage telles que de l'humidité.
@@ -23,13 +23,18 @@ Nous pouvons toutefois instaurer des mesures afin de s'assurer que les utilisate
 
 ## Scénarios d'usage et impacts
 
-## Scénario : "Recherche d'un fichier"
+Pour ces scénarios d'utilisation, nous prendrons pour hypothèses que l'utilisateur utilise très souvent la plateforme et y dépose des fichiers et dossiers plutôt volumineux pour certains. Nous avons donc deux cas de consultation : 
+1. La consultation d'un fichier.
+2. La Navigation dans l'aborescence d'un fichier.
+
+### Scénario : "Recherche d'un fichier"
+
 1. L'utilisateur accède à la page d'accueil et saisit le nom d'un fichier spécifique dans la barre de recherche et clique sur "Entrer".
 2. L'utilisateur clique sur le fichier dans la liste des résultats de recherche.
 3. L'utilisateur accède au fichier.
 4. L'utilisateur revient à la liste des résultats de recherche et ouvre un fichier différent.
 
-## Scénario : "Navigation dans l'aborescence de fichiers"
+### Scénario : "Navigation dans l'aborescence de fichiers"
 1. L'utilisateur accède à la page d'accueil et ouvre sur un dossier.
 2. L'utilisateur accède au dossier et ouvre un sous-dossier.
 3. L'utilisateur ouvre un des fichiers du sous-dossier.
