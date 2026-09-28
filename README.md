@@ -20,3 +20,17 @@ Certaines mesures sont entreprises pour permettre l'archivage d'Internet (Intern
 La numérisation de documents et les solutions de type Drive sur le Cloud n'ont pas vraiment remplacé une solution existante avant Internet, dans le sens où la création de documents de façon numérique n'a pas eu besoin de services de ce type pour exister. Il n'est pas non plus possible de quantifier l'utilisation de ce type de services directement pour en tirer des conclusions (est-ce que les utilisateurs les utilisent de façon très efficace pour stocker et partager des fichiers d'importance capitale ou bient stockent-ils des fichiers non-utilisés ou redondants?). Nous pouvons simplement quantifier l'impact écologique actuel des solutions informatiques proposant ce services, que nous savons être conséquentes.
 
 Nous pouvons toutefois instaurer des mesures afin de s'assurer que les utilisateurs en font bon usage : Limiter les documents inactifs, Optimiser la taille, Promouvoir l'efficacité (taille / information)
+
+## Scénarios d'usage et impacts
+
+## Scénario : "Recherche d'un fichier"
+1. L'utilisateur accède à la page d'accueil et saisit le nom d'un fichier spécifique dans la barre de recherche et clique sur "Entrer".
+2. L'utilisateur clique sur le fichier dans la liste des résultats de recherche.
+3. L'utilisateur accède au fichier.
+4. L'utilisateur revient à la liste des résultats de recherche et ouvre un fichier différent.
+
+## Scénario : "Navigation dans l'aborescence de fichiers"
+1. L'utilisateur accède à la page d'accueil et ouvre sur un dossier.
+2. L'utilisateur accède au dossier et ouvre un sous-dossier.
+3. L'utilisateur ouvre un des fichiers du sous-dossier.
+4. L'utilisateur revient au dossier initialement ouvert.
