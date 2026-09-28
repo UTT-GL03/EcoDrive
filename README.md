@@ -52,3 +52,5 @@ Analysons l'impact écologique de l'exécution de ces scénarios chez des applic
 | Dropbox | ? | F 🟪 | [(source)](https://github.com/UTT-GL03/EcoDrive/tree/main/benchmark/Dropbox/scenarios)
 | MEGA| ? | G ⬛ | [(source)](https://github.com/UTT-GL03/EcoDrive/tree/main/benchmark/MEGA/scenarios)
 | Google Drive | ? | G ⬛ | [(source)](https://github.com/UTT-GL03/EcoDrive/tree/main/benchmark/Google%20Drive)
+
+Les résultats de l'exécution de ces scénarios sur les solutions concurrentes sélectionnées révelent que les scores obtenus tirent vers le bas et sont très mauvais : en cause, un nombre de requêtes HTTP élevées, un nombre d'éléments dans le DOM élevé, ainsi qu'un nombre de domaines élevés.
