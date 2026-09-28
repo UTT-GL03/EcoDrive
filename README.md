@@ -37,3 +37,13 @@ Pour ces scénarios d'utilisation, nous prendrons pour hypothèses que l'utilisa
 2. L'utilisateur accède au dossier et ouvre un sous-dossier.
 3. L'utilisateur ouvre un des fichiers du sous-dossier.
 4. L'utilisateur revient au dossier initialement ouvert.
+
+## Impact de l'exécution des scénarios auprès de différents services concurrents
+
+L'EcoIndex d'une page (de A à G) est calculé (sources : [EcoIndex](https://www.ecoindex.fr/comment-ca-marche/), [Octo](https://blog.octo.com/sous-le-capot-de-la-mesure-ecoindex), [GreenIT](https://github.com/cnumr/GreenIT-Analysis/blob/acc0334c712ba68939466c42af1514b5f448e19f/script/ecoIndex.js#L19-L44)) en fonction du positionnement de cette page parmi les pages mondiales concernant :
+
+- le nombre de requêtes lancées,
+- le poids des téléchargements,
+- le nombre d'éléments du document.
+
+Analysons l'impact écologique de l'exécution de ces scénarios chez des applications concurrentes : **MEGA**, **Google Drive**, et **Dropbox**.
