@@ -14,3 +14,9 @@ Cependant, cette solution a également des points faibles : attaques, empoisonne
 
 Certaines mesures sont entreprises pour permettre l'archivage d'Internet (Internet Archive, concept de Lost Media, communautés d'historiens) et simplifier la préservation de documents et sites webs, mais ils se heurtent également à des problèmes.
 [(source: Learn & Work EcoSystem Library)](https://learnworkecosystemlibrary.com/topics/digital-decay-internet-poisoning-and-digital-archiving/)
+
+## Effets de la numérisation
+
+La numérisation de documents et les solutions de type Drive sur le Cloud n'ont pas vraiment remplacé une solution existante avant Internet, dans le sens où la création de documents de façon numérique n'a pas eu besoin de services de ce type pour exister. Il n'est pas non plus possible de quantifier l'utilisation de ce type de services directement pour en tirer des conclusions (est-ce que les utilisateurs les utilisent de façon très efficace pour stocker et partager des fichiers d'importance capitale ou bient stockent-ils des fichiers non-utilisés ou redondants?). Nous pouvons simplement quantifier l'impact écologique actuel des solutions informatiques proposant ce services, que nous savons être conséquentes.
+
+Nous pouvons toutefois instaurer des mesures afin de s'assurer que les utilisateurs en font bon usage : Limiter les documents inactifs, Optimiser la taille, Promouvoir l'efficacité (taille / information)
