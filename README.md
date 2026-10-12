@@ -79,3 +79,4 @@ Déterminer des maquettes, et objets métier à partir de services similaires et
 Les ressources web de notre application seront : 
 * Le dossier racine de l'utilisateur avec une HTTP-URI : `/` (Repreésentations différentes selon si des messages exceptionnels sont affichés).
 * La visualisation d'un dossier  `/{idDossier}` (Représentation unique).
+Nous allons utiliser la librairie dummy-json ainsi que npm afin de générer des données factices en grand nombre, et libres de droit.
