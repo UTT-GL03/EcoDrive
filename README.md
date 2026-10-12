@@ -77,5 +77,7 @@ Puisque les services analysés proposent des modèles économiques de type freem
 Déterminer des maquettes, et objets métier à partir de services similaires et très simple, car le principe est très reconnu, et repose sur les arborescences de fichier, qui est également simple à mettre en place.
 
 Les ressources web de notre application seront : 
-* La page d'accueil avec une HTTP-URI : `/`
-* Les pages dans l'arborescence seront sous la forme `/pytorch/tree/main/cmake/Modules_CUDA_fix/upstream/FindCUDA`, où un fichier qu'il est possible d'ouvrir serait à la dernière position, tandis que des dossiers peuvent être à n'importe quelle position.
+* La page d'accueil avec une HTTP-URI : `/` (Repreésentations différentes selon si des messages exceptionnels sont affichés).
+* Les pages dans l'arborescence seront sous la forme `/pytorch/tree/main/cmake/Modules_CUDA_fix/upstream/FindCUDA`, où un fichier qu'il est possible d'ouvrir serait à la dernière position, tandis que des dossiers peuvent être à n'importe quelle position (Représentation unique).
+* La page du profil de l'utilisateur : `/profile` (Représentation unique).
+* La page de consultation des données de consommation de l'utilisateur : `/profile/dashboard` (Représentations différentes).
