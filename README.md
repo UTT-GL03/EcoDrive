@@ -54,3 +54,22 @@ Analysons l'impact écologique de l'exécution de ces scénarios chez des applic
 | Google Drive | ? | G ⬛ | [(source)](https://github.com/UTT-GL03/EcoDrive/tree/main/benchmark/Google%20Drive/scenarios)
 
 Les résultats de l'exécution de ces scénarios sur les solutions concurrentes sélectionnées révelent que les scores obtenus tirent vers le bas et sont très mauvais : en cause, un nombre de requêtes HTTP élevées, un nombre d'éléments dans le DOM très élevé, et des pages lourdes en général.
+
+## Modèle économique
+Le modèle économique d'un service de ce type peut encourager la pollution et les abus, ou bien aider le modèle à concevoir une utilisation écologique et respectueuse de l'environnement.
+
+Parmi les services concurrents étudiés, tous proposent un espace de stockage aux utilisateurs bénéficiant du forfait gratuit, mais proposent également des abonnements mensuels ou annuels qui offrent de nombreux avantages : Espace de stockage accru, gestion d'équipes, sécurité & encryption, et, plus récemment, des services tels que MEGA et Google One proposent un écosystème de services liés (VPN, Gestionnaire de mots de passes, etc.), ayant pour objectif de fidéliser l'utilisateur en l'incitant à les utiliser, et donc de ne pas payer pour uns seul service (le stockage en ligne), mais pour un florilège de services plus ou moins utiles, à prix réduit.
+
+Après étude des prix des abonnements proposés, comparés au prix à l'employeur du salaire médian (source: URSSAF, 2025), voici le nombre d'abonnements requis : 
+
+
+| Prix de l'abonnement | Quantité requise 
+| --- | --: | 
+| 2€ | 1754 
+| 5€ | 702
+| 8€ | 439
+
+Le financement par le biais d'abonnement est assez fructueux comparé à des méthodes de financements plus énergivores et moins rentables telles que la publicité, et des méthodes plus instables telles que les appels au dons.
+
+Puisque les services analysés proposent des modèles économiques de type freemium, c'est également celui que nous avons choisi d'adopter, en investissant dans l'achat d'architectures réseaux et de stockage à perte initialement, mais en espérant savoir fidéliser des utilisateurs et batîr une communaté récurrente qui pourra financer le service sur le long terme.
+
