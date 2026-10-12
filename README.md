@@ -73,3 +73,9 @@ Le financement par le biais d'abonnement est assez fructueux comparé à des mé
 
 Puisque les services analysés proposent des modèles économiques de type freemium, c'est également celui que nous avons choisi d'adopter, en investissant dans l'achat d'architectures réseaux et de stockage à perte initialement, mais en espérant savoir fidéliser des utilisateurs et batîr une communaté récurrente qui pourra financer le service sur le long terme.
 
+## Maquettage de l'interface et échantillonage des données
+Déterminer des maquettes, et objets métier à partir de services similaires et très simple, car le principe est très reconnu, et repose sur les arborescences de fichier, qui est également simple à mettre en place.
+
+Les ressources web de notre application seront : 
+* La page d'accueil avec une HTTP-URI : `/`
+* Les pages dans l'arborescence seront sous la forme `/pytorch/tree/main/cmake/Modules_CUDA_fix/upstream/FindCUDA`, où un fichier qu'il est possible d'ouvrir serait à la dernière position, tandis que des dossiers peuvent être à n'importe quelle position.
