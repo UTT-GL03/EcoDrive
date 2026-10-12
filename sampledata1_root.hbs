@@ -1,0 +1,15 @@
+{
+  "user": "{{firstName}} {{lastName}}",
+  "size": "{{float 0 1 round=0.1}}GB",
+  "plan" : "{{random "Free" "Standard" "Premium" "Ultra"}}", 
+  "elements": [
+    {{#repeat min=2 max=7}}
+    {
+      "created": "{{date '2024-10-07' '2026-10-12' 'YYYY-MM-DD hh:mm:ss'}}",
+      "type": "{{random "image/png" "text/plain" "application/pdf" "audio/wav" "application/zip"}}"
+      "filename": "{{city}}_{{company}}",
+      "size": "{{float 0 20 round=0.1}}GB",
+    }
+    {{/repeat}}
+  ]
+}
