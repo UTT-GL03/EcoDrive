@@ -1,11 +1,24 @@
 import { Link, useParams } from 'react-router-dom'
-import data from '../assets/sample_data.json'
+import { useState, useEffect } from 'react'
 import FileCard from '../components/FileCard'
 import { folderName } from '../utils'
 
 function FolderPage() {
   const { folderName: name } = useParams() 
-  const files = data.files.filter(f => folderName(f.path) === name)
+  const [files, setFiles] = useState([])
+
+  useEffect(() => {
+    fetch('/sample_data.json')
+      .then(x=>x.json())
+      .then(data=>{
+        setFiles(
+          Object.values(
+            data.files.filter(f => folderName(f.path) === name)
+          ),
+        )    
+      })
+   }, [])
+
 
   return (
     <>
@@ -15,7 +28,8 @@ function FolderPage() {
         {name}
       </h2>
       <div className="files">
-        {files.map((x, i) => <FileCard {...x} key={i} />)}
+        {files.map((x, i) => 
+           <FileCard {...x} key={i} /> )}
       </div>
     </>
   )

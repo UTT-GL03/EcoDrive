@@ -1,11 +1,23 @@
 import { Link, useParams } from 'react-router-dom'
-import data from '../assets/sample_data.json'
+import { useState, useEffect } from 'react'
 import { icons, formatDate, folderName } from '../utils'
 
 function FilePage() {
   const { filename } = useParams()
-  const file = data.files.find(f => f.filename === filename)
+  const [file, setFile] = useState([])
 
+ useEffect(() => {
+    fetch('/sample_data.json')
+      .then(x=>x.json())
+      .then(data=>{
+        setFile(
+          Object.values(
+           data.files.find(f => f.filename === filename)
+          ),
+        )    
+      })
+   }, [])
+  
   if (!file) {
     return <p>Fichier introuvable. <Link to="/">Retour à la racine</Link></p>
   }
