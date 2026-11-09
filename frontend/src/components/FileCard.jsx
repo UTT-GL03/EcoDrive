@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { icons, formatDate } from '../utils'
 
 function FileCard({filename, type, size, created}) {
+
   return (
     <article>
       <div className="icon">{icons[type]}</div>

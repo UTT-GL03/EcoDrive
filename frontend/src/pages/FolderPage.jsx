@@ -29,7 +29,7 @@ function FolderPage() {
       </h2>
       <div className="files">
         {files.map((x, i) => 
-           <FileCard {...x} key={i} /> )}
+           <FileCard {...x} key={i} filename={x.filename}  folderName={x.folderName} /> )}
       </div>
     </>
   )
