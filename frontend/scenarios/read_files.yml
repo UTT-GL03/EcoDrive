@@ -6,7 +6,7 @@
       type: scroll
     - name: Choisir un fichier/dossier
       type: click
-      element: .grid:nth-child(1) > article > a
+      element: .plain-link
       pageChange: true
       waitForSelector: article > p
     - name: Parcourir un dossier
