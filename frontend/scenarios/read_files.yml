@@ -8,29 +8,29 @@
       type: click
       element: .plain-link
       pageChange: true
-      waitForSelector: article > p
+      waitForSelector: article > a
     - name: Parcourir un dossier
       type: scroll
     - name: Ouvrir un fichier/dossier
       type: click
-      element: .grid:nth-child(1) > article > a
+      element: a
       pageChange: true
       waitForSelector: article > a
     - name: Retourner aux dossier
       type: click
-      element: header > a
+      element: .secondary
       pageChange: true
-      waitForSelector: main
+      waitForSelector: header > a
     - name: Retourner aux titres
       type: click
-      element: header
+      element: .secondary
       pageChange: true
-      waitForSelector: .grid
+      waitForSelector: main
     - name: Parcourir un dossier
       type: scroll
     - name: Ouvrir un autre fichier/dossier
       type: click
-      element: .grid:nth-child(2) > article > a
+      element: .plain-link
       pageChange: true
       waitForSelector: article > a
     - name: Lire l'autre article
