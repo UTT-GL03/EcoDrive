@@ -23,10 +23,36 @@ jobs:
         run: |
           cd frontend
           npm run build
-      - name: Start frontend
+      - name: Save frontend
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-build
+          path: frontend/dist
+
+  build_samples:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download sources
+        uses: actions/checkout@v5
+      - name: Generate sample
         run: |
-          cd frontend
-          docker compose up --detach
+          npx --yes dummy-json sampledata1_root.hbs > sample_data.json
+      - name: Save samples for later
+        uses: actions/upload-artifact@v4
+        with:
+          name: samples
+          path: sample_data.json
+
+  measure_ecoindex:
+    needs:
+      - build
+      - build_samples
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download sources
+        uses: actions/checkout@v5
+      - name: Start application
+        uses: ./.github/actions/start
       - name: Install GreenIT Analysis CLI
         run: |
           wget https://github.com/cnumr/GreenIT-Analysis-cli/archive/refs/heads/master.zip
