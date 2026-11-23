@@ -19,6 +19,6 @@
       waitForSelector: .files
     - name: Retourner à l'accueil 
       type: click
-      element: .plain-link > a
+      element: li > a
       pageChange: true
       waitForSelector: .plain-link
