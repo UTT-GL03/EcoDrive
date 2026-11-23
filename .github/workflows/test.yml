@@ -51,6 +51,8 @@ jobs:
     steps:
       - name: Download sources
         uses: actions/checkout@v5
+      - name: Start application
+        uses: ./.github/actions/start
       - name: Install GreenIT Analysis CLI
         run: |
           wget https://github.com/cnumr/GreenIT-Analysis-cli/archive/refs/heads/master.zip
