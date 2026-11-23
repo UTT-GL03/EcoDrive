@@ -7,14 +7,14 @@
       type: scroll
     - name: Choisir un dossier
       type: click
-      element: .files:nth-child(1) > article > a
+      element: article > a
       pageChange: true
       waitForSelector: .files
     - name: Voir la liste des fichiers du dossier
       type: scroll
     - name: Ouvrir un fichier
       type: click
-      element: .files:nth-child(1) > article > a
+      element: article > a
       pageChange: true
       waitForSelector: .files
     - name: Retourner à l'accueil 
