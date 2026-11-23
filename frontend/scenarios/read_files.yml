@@ -7,7 +7,7 @@
       type: scroll
     - name: Choisir un dossier
       type: click
-      element: article > a
+      element: article
       pageChange: true
       waitForSelector: .files
     - name: Voir la liste des fichiers du dossier
