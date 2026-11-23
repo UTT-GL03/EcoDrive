@@ -1,6 +1,22 @@
 # To be used with GreenIT Analysis CLI
 - name: Consulter le Drive
   url: http://localhost/
+  waitForSelector: .files
   actions:
     - name: Parcourir les dossiers/fichiers
       type: scroll
+    - name: Choisir un dossier
+      type: click
+      element: .files:nth-child(1) > article > a
+      pageChange: true
+      waitForSelector: article > p
+    - name: Voir la liste des fichiers du dossier
+      type: scroll
+    - name: Ouvrir un fichier
+      type: click
+      element: .files:nth-child(1) > article > a
+      pageChange: true
+    - name: Retourner à l'accueil 
+      type: click
+      element: .plain-link>a
+      pageChange: true
