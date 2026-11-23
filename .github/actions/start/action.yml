@@ -13,6 +13,6 @@ runs:
         docker compose up --detach
       shell: bash
     - name: Wait for frontend
-      uses: docker://ecodrive/wait-for-response:1
+      uses: docker://thuves/wait-for-response:1
       with:
         args: http://localhost/ 200 30000 500
