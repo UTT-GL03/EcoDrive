@@ -1,6 +1,5 @@
 name: Start application
 description: Once done, the application is ready on `localhost:80`.
-
 runs:
   using: composite
   steps:
@@ -14,6 +13,6 @@ runs:
         docker compose up --detach
       shell: bash
     - name: Wait for frontend
-      uses: docker://benel/wait-for-response:1
+      uses: docker://ecodrive/wait-for-response:1
       with:
         args: http://localhost/ 200 30000 500
